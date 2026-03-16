@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ai_Teacher</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/png" href="./assets/iamges/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+ <nav class="navbar navbar-expand-lg navbar-light bg-light nav">
+  <div class="container-fluid nav">
+    <a class="navbar-brand" href="index.html" target="_blank"><img src="./assets/iamges/logo.png" alt="logo" class="logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav link">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="courses.html" target="">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cases.html" target="_blank">Cases</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Ai_teacher.html" target="_blank">Ai_Teacher</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="dashboard.html" target="_blank">Dashboard</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+        <h1 class="title fw-bold text-center mt-5 text-primary  "> AI Medical Tutor</h1>
+
+    <div class="container mt-4">
+
+        <div class="card ">
+            <input class="input p-3" type=" text" placeholder="Ask your AI">
+
+            
+        </div>
+
+    </div>
+    <div class="container gap-2 mt-3 text-center">
+  <button class="btn btn-primary " type="button">Analyze With AI</button>
+  
+</div>
+
+
+
+    <div class="accordion mt-5 " id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <h2 class="suggestion text-center text-primary fw-bold mt-3">Suggested Questions</h2>
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Explain ECG interpretation step by step
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show " data-bs-parent="#accordionExample">
+                <div class="accordion-body ">
+                    <strong>ECG interpretation is done through a systematic approach to avoid missing important
+                        findings. The basic steps are:</strong> 1-Check the Heart Rate
+                    Determine if the heart rate is normal (60–100 beats per minute), too fast (tachycardia), or too slow
+                    (bradycardia).
+
+                    2-Assess the Heart Rhythm
+                    Check if the rhythm is regular or irregular. A normal rhythm is called sinus rhythm, where each P
+                    wave is followed by a QRS complex.
+
+                    3-Examine the P Wave
+                    The P wave represents atrial depolarization. Check its shape and presence to evaluate atrial
+                    activity.
+
+                    4-Measure the PR Interval
+                    The PR interval shows the time it takes for electrical signals to travel from the atria to the
+                    ventricles. A normal PR interval is 0.12–0.20 seconds.
+
+                    5-Analyze the QRS Complex
+                    The QRS complex represents ventricular depolarization. It should normally be less than 0.12 seconds.
+                    A wide QRS may indicate conduction problems.
+
+                    6-Evaluate the ST Segment
+                    Look for elevation or depression in the ST segment, which may indicate conditions such as myocardial
+                    ischemia or infarction.
+
+                    7-Observe the T Wave
+                    The T wave represents ventricular repolarization. Abnormal shapes may indicate electrolyte imbalance
+                    or heart problems.
+
+                    8-Check the QT Interval
+                    The QT interval reflects the total time of ventricular activity. A prolonged QT interval can
+                    increase the risk of dangerous arrhythmias. <code>.accordion-body</code>, though the transition does
+                    limit overflow.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    How AI helps in detecting pneumonia from X-ray
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Artificial Intelligence (AI) can assist doctors in detecting pneumonia from chest X-ray
+                        images by using advanced image analysis and machine learning techniques. The process usually
+                        involves the following steps:
+                    </strong>
+                    1- Image Input
+                    The chest X-ray image is uploaded into an AI system trained to analyze medical images.
+
+                    2-Image Processing
+                    The AI system enhances the image and identifies important areas such as the lungs and surrounding
+                    tissues.
+
+                    3- Pattern Recognition
+                    AI models, especially deep learning models, analyze patterns in the X-ray image. They look for
+                    abnormalities such as lung opacities, inflammation, or fluid accumulation, which are common signs of
+                    pneumonia.
+
+                    4-Comparison with Medical Data
+                    The AI compares the image with thousands of previously labeled X-ray images of pneumonia and normal
+                    lungs stored in its training dataset.
+
+                    5-Prediction and Probability
+                    The system provides a prediction, indicating the likelihood that pneumonia is present, often as a
+                    probability score.
+
+                    6- Clinical Support for Doctors
+                    The AI highlights suspicious regions in the lungs and helps doctors review the image more quickly
+                    and accurately.<code>.accordion-body</code>, though the transition does limit
+                    overflow.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What are the early symptoms of sepsis
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>The symptoms are often described using the
+                        acronym TIME:</strong> T — Temperature: Higher or lower than normal. You may have a high fever,
+                    shivering, or
+                    feel very cold (hypothermia).I — Infection: You may have signs of a recent infection or a procedure
+                    (like a cut, a UTI, or pneumonia).M — Mental Decline: Feeling confused, sleepy, slurred speech, or
+                    being difficult to wake up.E — Extremely Ill: Patients often describe a "feeling of impending doom"
+                    or say, "I feel like I might die."<code>.accordion-body</code>, though the transition does limit
+                    overflow.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    How to interpret blood test results
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Interpreting blood test results involves analyzing different components of the blood and
+                        comparing them with normal reference ranges. Doctors usually follow these steps:</strong>
+                        1-Check the Reference Range
+                    Each blood test has a normal range. The first step is to compare the patient’s results with these
+                    reference values to see if they are normal, high, or low.
+
+                    2-Review the Complete Blood Count (CBC)
+                    The CBC test measures important blood components such as:
+
+                    Red Blood Cells (RBC): Carry oxygen in the body. Low levels may indicate anemia.
+
+                    White Blood Cells (WBC): Help fight infections. High levels may suggest infection or inflammation.
+
+                    Platelets: Help with blood clotting. Abnormal levels may indicate bleeding or clotting disorders.
+
+                    3-Analyze Blood Chemistry Tests
+                    These tests measure substances such as:
+
+                    Glucose: High levels may indicate diabetes.
+
+                    Cholesterol: High levels may increase the risk of heart disease.
+
+                    Electrolytes (sodium, potassium): Important for nerve and muscle function.
+
+                    4-Evaluate Organ Function Tests
+                    Some blood tests help assess how organs are working:
+
+                    Liver function tests (ALT, AST): Check liver health.
+
+                    Kidney function tests (creatinine, urea): Evaluate kidney performance.
+
+                    5-Consider the Patient’s Symptoms and Medical History
+                    Blood test results are interpreted together with the patient’s symptoms, medical history, and other
+                    tests to make an accurate diagnosis. <code>.accordion-body</code>, though the transition does
+                    limit overflow.
+                </div>
+            </div>
+        </div>
+    </div>
+<footer class="footer">
+  <div class="footer-content">
+
+    <div class="footer-word">
+      <h3>AI Doctor</h3>
+      <p>
+        Empowering medical students with AI knowledge to improve diagnosis,
+        treatment, and patient care. Learn and explore the future of medicine.
+      </p>
+    </div>
+
+    <div class="footer-word">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="cases.html">Case Simulation</a></li>
+        <li><a href="Ai_teacher.html">AI Teacher</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-word">
+      <h3>Contact</h3>
+      <p><i class="fa-solid fa-envelope"></i>: info@aidoctor.com</p>
+      <p><i class="fa-solid fa-phone"></i>: +20 123 456 789</p>
+      <p><i class="fa-solid fa-location-dot"></i>: Cairo, Egypt</p>
+    </div>
+
+    <div class="footer-word">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 AI Doctor. All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+<script src="./assets/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+
+</html>
